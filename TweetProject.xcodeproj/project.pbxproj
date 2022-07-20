@@ -16,6 +16,9 @@
 		66310D682887E49A00455D2F /* Tweet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D672887E49A00455D2F /* Tweet.swift */; };
 		66310D6C28885FC800455D2F /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D6B28885FC700455D2F /* ImageUploader.swift */; };
 		66310D6E2888600000455D2F /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D6D2888600000455D2F /* UserService.swift */; };
+		66310D702888609F00455D2F /* TweetService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D6F2888609F00455D2F /* TweetService.swift */; };
+		66310D75288860F400455D2F /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D74288860F400455D2F /* FeedView.swift */; };
+		66310D772888611D00455D2F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D762888611D00455D2F /* FeedViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,9 @@
 		66310D672887E49A00455D2F /* Tweet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tweet.swift; sourceTree = "<group>"; };
 		66310D6B28885FC700455D2F /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		66310D6D2888600000455D2F /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		66310D6F2888609F00455D2F /* TweetService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetService.swift; sourceTree = "<group>"; };
+		66310D74288860F400455D2F /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
+		66310D762888611D00455D2F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		66310D6928885F8400455D2F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				66310D71288860BF00455D2F /* Feed */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -110,8 +117,34 @@
 			children = (
 				66310D6B28885FC700455D2F /* ImageUploader.swift */,
 				66310D6D2888600000455D2F /* UserService.swift */,
+				66310D6F2888609F00455D2F /* TweetService.swift */,
 			);
 			path = Service;
+			sourceTree = "<group>";
+		};
+		66310D71288860BF00455D2F /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				66310D73288860D000455D2F /* ViewModel */,
+				66310D72288860C900455D2F /* View */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		66310D72288860C900455D2F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				66310D74288860F400455D2F /* FeedView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		66310D73288860D000455D2F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				66310D762888611D00455D2F /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,13 +217,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66310D772888611D00455D2F /* FeedViewModel.swift in Sources */,
 				66310D6E2888600000455D2F /* UserService.swift in Sources */,
+				66310D75288860F400455D2F /* FeedView.swift in Sources */,
 				66310D6C28885FC800455D2F /* ImageUploader.swift in Sources */,
 				66310D662887E47A00455D2F /* User.swift in Sources */,
 				66310D682887E49A00455D2F /* Tweet.swift in Sources */,
 				66310D622887E42900455D2F /* ImagePicker.swift in Sources */,
 				66310D552887E3FF00455D2F /* ContentView.swift in Sources */,
 				66310D532887E3FF00455D2F /* TweetProjectApp.swift in Sources */,
+				66310D702888609F00455D2F /* TweetService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
