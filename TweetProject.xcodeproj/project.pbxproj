@@ -23,6 +23,7 @@
 		66310D7F288870C400455D2F /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D7E288870C400455D2F /* ExploreView.swift */; };
 		66310D81288870DA00455D2F /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D80288870DA00455D2F /* ExploreViewModel.swift */; };
 		66310D842888714500455D2F /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D832888714500455D2F /* NotificationsView.swift */; };
+		66310D872888731F00455D2F /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D862888731F00455D2F /* MessagesView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		66310D7E288870C400455D2F /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
 		66310D80288870DA00455D2F /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		66310D832888714500455D2F /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		66310D862888731F00455D2F /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		66310D6928885F8400455D2F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				66310D852888730C00455D2F /* Messages */,
 				66310D822888713200455D2F /* Notifications */,
 				66310D7B2888708400455D2F /* Explore */,
 				66310D782888615400455D2F /* MainTab */,
@@ -199,6 +202,14 @@
 			path = Notifications;
 			sourceTree = "<group>";
 		};
+		66310D852888730C00455D2F /* Messages */ = {
+			isa = PBXGroup;
+			children = (
+				66310D862888731F00455D2F /* MessagesView.swift */,
+			);
+			path = Messages;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -274,6 +285,7 @@
 				66310D75288860F400455D2F /* FeedView.swift in Sources */,
 				66310D6C28885FC800455D2F /* ImageUploader.swift in Sources */,
 				66310D662887E47A00455D2F /* User.swift in Sources */,
+				66310D872888731F00455D2F /* MessagesView.swift in Sources */,
 				66310D7A2888617B00455D2F /* MainTabView.swift in Sources */,
 				66310D682887E49A00455D2F /* Tweet.swift in Sources */,
 				66310D622887E42900455D2F /* ImagePicker.swift in Sources */,
