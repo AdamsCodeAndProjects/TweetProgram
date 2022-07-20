@@ -3,10 +3,11 @@
 Complete Twitter App recreated using Firestore
 
 <h1>Features</h1>
-- Firestore Authentication
-- Login / Registration Feature
-- All likes and tweets persist.  If app terminates, the data remains.
-- Complete profile view 
+- Firestore Authentication <br>
+- Login / Registration Feature <br>
+- All likes and tweets persist.  If app terminates, the data remains. <br>
+- Complete profile view <br>
+- Search feature completed for filtering out searches of specific users <br>
 
 <h1>Images</h1>
 <img width="351" alt="Screen Shot 2022-07-20 at 2 53 42 AM" src="https://user-images.githubusercontent.com/87610332/179922128-c20a0ded-dfb1-4eff-8b97-efb2e207af2d.png">
