@@ -44,3 +44,6 @@ Complete SwiftUI Twitter App recreated using Firebase
 <br>
 
 <img width="351" alt="Screen Shot 2022-07-20 at 3 02 25 AM" src="https://user-images.githubusercontent.com/87610332/179922097-2be6e1fa-5711-436c-aea8-fbfd213e1afa.png">
+- Filter out all users to search for a specific user. <br>
+<br>
+<br>
