@@ -1,6 +1,6 @@
 # TweetProgram
 <h1>About</h1>
-Complete Twitter App recreated using Firestore
+Complete SwiftUI Twitter App recreated using Firebase
 
 <h1>Features</h1>
 - Firestore Authentication <br>
@@ -8,6 +8,11 @@ Complete Twitter App recreated using Firestore
 - All likes and tweets persist.  If app terminates, the data remains. <br>
 - Complete profile view <br>
 - Search feature completed for filtering out searches of specific users <br>
+- Upload and persist image files and text <br>
+- Beautiful SwiftUI layout <br>
+- MVVM <br>
+- Fetch and display user data from API <br>
+- DID NOT INCLUDE the Firebase files in this github project due to security reasons <br>
 
 <h1>Images</h1>
 <img width="351" alt="Screen Shot 2022-07-20 at 2 53 42 AM" src="https://user-images.githubusercontent.com/87610332/179922128-c20a0ded-dfb1-4eff-8b97-efb2e207af2d.png">
