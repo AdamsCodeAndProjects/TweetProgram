@@ -18,9 +18,11 @@ Complete SwiftUI Twitter App recreated using Firebase
 <h1>Images</h1>
 <img width="351" alt="Screen Shot 2022-07-20 at 2 53 42 AM" src="https://user-images.githubusercontent.com/87610332/179922128-c20a0ded-dfb1-4eff-8b97-efb2e207af2d.png">
 - Registration / Login page for new users or returning users.  No need to enter your email and password every time opening the app.<br>
+<br>
 
 <img width="351" alt="Screen Shot 2022-07-20 at 2 56 57 AM" src="https://user-images.githubusercontent.com/87610332/179922146-89263969-93e5-44a5-b901-073278264fd4.png">
-
+- Write a new Tweet.  Will persist upon termination using Firestore. <br>
+<br>
 
 <img width="351" alt="Screen Shot 2022-07-20 at 3 01 28 AM" src="https://user-images.githubusercontent.com/87610332/179922051-5ff1489b-d86f-43f0-bd16-b07ade58171f.png">
 
