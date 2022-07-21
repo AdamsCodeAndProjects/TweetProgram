@@ -26,6 +26,7 @@
 		66310D872888731F00455D2F /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D862888731F00455D2F /* MessagesView.swift */; };
 		66310D8C288873D000455D2F /* TweetFilterVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D8B288873D000455D2F /* TweetFilterVM.swift */; };
 		66310D8E2888746C00455D2F /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D8D2888746C00455D2F /* ProfileViewModel.swift */; };
+		66310D902889E99F00455D2F /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66310D8F2889E99F00455D2F /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		66310D862888731F00455D2F /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		66310D8B288873D000455D2F /* TweetFilterVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetFilterVM.swift; sourceTree = "<group>"; };
 		66310D8D2888746C00455D2F /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		66310D8F2889E99F00455D2F /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 		66310D8A288873B900455D2F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				66310D8F2889E99F00455D2F /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				66310D7A2888617B00455D2F /* MainTabView.swift in Sources */,
 				66310D682887E49A00455D2F /* Tweet.swift in Sources */,
 				66310D622887E42900455D2F /* ImagePicker.swift in Sources */,
+				66310D902889E99F00455D2F /* ProfileView.swift in Sources */,
 				66310D81288870DA00455D2F /* ExploreViewModel.swift in Sources */,
 				66310D552887E3FF00455D2F /* ContentView.swift in Sources */,
 				66310D532887E3FF00455D2F /* TweetProjectApp.swift in Sources */,
