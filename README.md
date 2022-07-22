@@ -15,6 +15,7 @@ Complete SwiftUI Twitter App recreated using Firebase
 - Fetch and display user data from API <br>
 - DID NOT INCLUDE the Firebase files in this github project due to security reasons <br>
 - Completed animations and sliding features for more interactive feel <br>
+- Imported package Kingfisher for easy to use photos <br>
 
 <h1>Images</h1>
 <img width="351" alt="Screen Shot 2022-07-20 at 2 53 42 AM" src="https://user-images.githubusercontent.com/87610332/179922128-c20a0ded-dfb1-4eff-8b97-efb2e207af2d.png">
